@@ -1,5 +1,5 @@
 const state_counties = {
-    "New York": [
+    "NY": [
     "New York",
     "Buffalo",
     "Rochester",
@@ -18,7 +18,7 @@ const state_counties = {
     "Freeport",
     "Valley Stream"
     ],
-    "California": [
+    "CA": [
     "Los Angeles",
     "San Diego",
     "San Jose",
@@ -233,7 +233,7 @@ const state_counties = {
     "Los Banos",
     "Martinez"
     ],
-    "Illinois": [
+    "IL": [
     "Chicago",
     "Aurora",
     "Rockford",
@@ -287,7 +287,7 @@ const state_counties = {
     "Addison",
     "Calumet City"
     ],
-    "Texas": [
+    "TX": [
     "Houston",
     "San Antonio",
     "Dallas",
@@ -372,7 +372,7 @@ const state_counties = {
     "Friendswood",
     "Weslaco"
     ],
-    "Pennsylvania": [
+    "PA": [
     "Philadelphia",
     "Pittsburgh",
     "Allentown",
@@ -387,7 +387,7 @@ const state_counties = {
     "State College",
     "Wilkes-Barre"
     ],
-    "Arizona": [
+    "AZ": [
     "Phoenix",
     "Tucson",
     "Mesa",
@@ -414,7 +414,7 @@ const state_counties = {
     "Marana",
     "Apache Junction"
     ],
-    "Florida": [
+    "FL": [
     "Jacksonville",
     "Miami",
     "Tampa",
@@ -488,7 +488,7 @@ const state_counties = {
     "Winter Garden",
     "Aventura"
     ],
-    "Indiana": [
+    "IN": [
     "Indianapolis",
     "Fort Wayne",
     "Evansville",
@@ -512,7 +512,7 @@ const state_counties = {
     "Columbus",
     "Portage"
     ],
-    "Ohio": [
+    "OH": [
     "Columbus",
     "Cleveland",
     "Cincinnati",
@@ -548,7 +548,7 @@ const state_counties = {
     "Marion",
     "Grove City"
     ],
-    "North Carolina": [
+    "NC": [
     "Charlotte",
     "Raleigh",
     "Greensboro",
@@ -573,7 +573,7 @@ const state_counties = {
     "Hickory",
     "Goldsboro"
     ],
-    "Michigan": [
+    "MI": [
     "Detroit",
     "Grand Rapids",
     "Warren",
@@ -606,7 +606,7 @@ const state_counties = {
     "Lincoln Park",
     "Muskegon"
     ],
-    "Tennessee": [
+    "TN": [
     "Memphis",
     "Nashville-Davidson",
     "Knoxville",
@@ -625,7 +625,7 @@ const state_counties = {
     "Germantown",
     "Brentwood"
     ],
-    "Massachusetts": [
+    "MA": [
     "Boston",
     "Worcester",
     "Springfield",
@@ -663,7 +663,7 @@ const state_counties = {
     "Woburn",
     "Chelsea"
     ],
-    "Washington": [
+    "WA": [
     "Seattle",
     "Spokane",
     "Tacoma",
@@ -693,7 +693,7 @@ const state_counties = {
     "Bremerton",
     "Puyallup"
     ],
-    "Colorado": [
+    "CO": [
     "Denver",
     "Colorado Springs",
     "Aurora",
@@ -716,10 +716,10 @@ const state_counties = {
     "Littleton",
     "Northglenn"
     ],
-    "District of Columbia": [
+    "DC": [
     "Washington"
     ],
-    "Maryland": [
+    "MD": [
     "Baltimore",
     "Frederick",
     "Rockville",
@@ -728,14 +728,14 @@ const state_counties = {
     "Hagerstown",
     "Annapolis"
     ],
-    "Kentucky": [
-    "Louisville/Jefferson County",
+    "KY": [
+    "Louisville/Jefferson",
     "Lexington-Fayette",
     "Bowling Green",
     "Owensboro",
     "Covington"
     ],
-    "Oregon": [
+    "OR": [
     "Portland",
     "Eugene",
     "Salem",
@@ -751,7 +751,7 @@ const state_counties = {
     "Lake Oswego",
     "Keizer"
     ],
-    "Oklahoma": [
+    "OK": [
     "Oklahoma City",
     "Tulsa",
     "Norman",
@@ -764,7 +764,7 @@ const state_counties = {
     "Stillwater",
     "Muskogee"
     ],
-    "Wisconsin": [
+    "WI": [
     "Milwaukee",
     "Madison",
     "Green Bay",
@@ -786,7 +786,7 @@ const state_counties = {
     "Greenfield",
     "Beloit"
     ],
-    "Nevada": [
+    "NV": [
     "Las Vegas",
     "Henderson",
     "Reno",
@@ -794,7 +794,7 @@ const state_counties = {
     "Sparks",
     "Carson City"
     ],
-    "New Mexico": [
+    "NM": [
     "Albuquerque",
     "Las Cruces",
     "Rio Rancho",
@@ -803,7 +803,7 @@ const state_counties = {
     "Farmington",
     "Clovis"
     ],
-    "Missouri": [
+    "MO": [
     "Kansas City",
     "St. Louis",
     "Springfield",
@@ -821,7 +821,7 @@ const state_counties = {
     "Jefferson City",
     "Cape Girardeau"
     ],
-    "Virginia": [
+    "VA": [
     "Virginia Beach",
     "Norfolk",
     "Chesapeake",
@@ -840,12 +840,12 @@ const state_counties = {
     "Blacksburg",
     "Manassas"
     ],
-    "Georgia": [
+    "GA": [
     "Atlanta",
     "Columbus",
-    "Augusta-Richmond County",
+    "Augusta-Richmond",
     "Savannah",
-    "Athens-Clarke County",
+    "Athens-Clarke",
     "Sandy Springs",
     "Roswell",
     "Macon",
@@ -858,13 +858,13 @@ const state_counties = {
     "Smyrna",
     "Dunwoody"
     ],
-    "Nebraska": [
+    "NE": [
     "Omaha",
     "Lincoln",
     "Bellevue",
     "Grand Island"
     ],
-    "Minnesota": [
+    "MN": [
     "Minneapolis",
     "St. Paul",
     "Rochester",
@@ -890,7 +890,7 @@ const state_counties = {
     "Moorhead",
     "Shakopee"
     ],
-    "Kansas": [
+    "KS": [
     "Wichita",
     "Overland Park",
     "Kansas City",
@@ -903,7 +903,7 @@ const state_counties = {
     "Salina",
     "Hutchinson"
     ],
-    "Louisiana": [
+    "LA": [
     "New Orleans",
     "Baton Rouge",
     "Shreveport",
@@ -914,13 +914,13 @@ const state_counties = {
     "Monroe",
     "Alexandria"
     ],
-    "Hawaii": [
+    "HI": [
     "Honolulu"
     ],
-    "Alaska": [
+    "AK": [
     "Anchorage"
     ],
-    "New Jersey": [
+    "NJ": [
     "Newark",
     "Jersey City",
     "Paterson",
@@ -944,7 +944,7 @@ const state_counties = {
     "Linden",
     "Atlantic City"
     ],
-    "Idaho": [
+    "ID": [
     "Boise City",
     "Nampa",
     "Meridian",
@@ -954,7 +954,7 @@ const state_counties = {
     "Coeur d'Alene",
     "Twin Falls"
     ],
-    "Alabama": [
+    "AL": [
     "Birmingham",
     "Montgomery",
     "Mobile",
@@ -968,7 +968,7 @@ const state_counties = {
     "Florence",
     "Gadsden"
     ],
-    "Iowa": [
+    "IA": [
     "Des Moines",
     "Cedar Rapids",
     "Davenport",
@@ -983,7 +983,7 @@ const state_counties = {
     "Urbandale",
     "Cedar Falls"
     ],
-    "Arkansas": [
+    "AR": [
     "Little Rock",
     "Fort Smith",
     "Fayetteville",
@@ -995,7 +995,7 @@ const state_counties = {
     "Pine Bluff",
     "Bentonville"
     ],
-    "Utah": [
+    "UT": [
     "Salt Lake City",
     "West Valley City",
     "Provo",
@@ -1015,7 +1015,7 @@ const state_counties = {
     "Riverton",
     "Roy"
     ],
-    "Rhode Island": [
+    "RI": [
     "Providence",
     "Warwick",
     "Cranston",
@@ -1023,7 +1023,7 @@ const state_counties = {
     "East Providence",
     "Woonsocket"
     ],
-    "Mississippi": [
+    "MS": [
     "Jackson",
     "Gulfport",
     "Southaven",
@@ -1031,11 +1031,11 @@ const state_counties = {
     "Biloxi",
     "Meridian"
     ],
-    "South Dakota": [
+    "SD": [
     "Sioux Falls",
     "Rapid City"
     ],
-    "Connecticut": [
+    "CT": [
     "Bridgeport",
     "New Haven",
     "Stamford",
@@ -1052,7 +1052,7 @@ const state_counties = {
     "Norwich",
     "Shelton"
     ],
-    "South Carolina": [
+    "SC": [
     "Columbia",
     "Charleston",
     "North Charleston",
@@ -1066,44 +1066,45 @@ const state_counties = {
     "Florence",
     "Spartanburg"
     ],
-    "New Hampshire": [
+    "NH": [
     "Manchester",
     "Nashua",
     "Concord"
     ],
-    "North Dakota": [
+    "ND": [
     "Fargo",
     "Bismarck",
     "Grand Forks",
     "Minot"
     ],
-    "Montana": [
+    "MT": [
     "Billings",
     "Missoula",
     "Great Falls",
     "Bozeman"
     ],
-    "Delaware": [
+    "DE": [
     "Wilmington",
     "Dover"
     ],
-    "Maine": [
+    "ME": [
     "Portland"
     ],
-    "Wyoming": [
+    "WY": [
     "Cheyenne",
     "Casper"
     ],
-    "West Virginia": [
+    "WV": [
     "Charleston",
     "Huntington"
     ],
-    "Vermont": [
+    "VT": [
     "Burlington"
     ]
 }
 
 function populateCounty(state) {
+    console.log('in county')
     counties = state_counties[state]
     var selectList = document.createElement("select");
     selectList.id = "county";
@@ -1124,11 +1125,18 @@ function populateCounty(state) {
 }
 
 async function executeGet() {
+    console.log('in execute')
     state = document.getElementById("state").value
     county = document.getElementById("county").value
     ageGroup = document.getElementById("ageGroup").value
+    race = document.getElementById("race").value
+    sex = document.getElementById("sex").value
+    currentStatus = document.getElementById("currentStatus").value
 
-    fetch(`/get-prediction?state=${state}&county=${county}&ageGroup=${ageGroup}`, {
+    const api = `/get-prediction?state=${state}&county=${county}&ageGroup=${ageGroup}&race=${race}&currentStatus=${currentStatus}&sex=${sex}`
+    console.log('in api')
+
+    fetch(api, {
         method: "GET",
         headers: {'Content-Type': 'application/json'},
         params: {
@@ -1140,6 +1148,10 @@ async function executeGet() {
     .then(response => response.json())
     .then(data => {
         console.log(data)
-        document.getElementById('prediction-message').innerHTML = data.result;
+        document.getElementById('prediction-message-death').innerHTML = data.result[0];
+        document.getElementById('prediction-message-icu').innerHTML = data.result[1];
+        document.getElementById('prediction-message-hosp').innerHTML = data.result[2];
+        document.getElementById('health-outcomes').innerHTML = data.result[data.result.length - 1].replaceAll(/[\[\'\"\]]/g, '');
+        // document.getElementById('health-outcomes').innerHTML = data.result[2].replaceAll(/[\[\'\"\]]/g, '');
     })
 }
