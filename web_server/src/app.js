@@ -12,6 +12,7 @@ const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 const pyscript = path.join(__dirname, '../ml/script.py')
+const mlDirectory = path.join(__dirname, '../ml')
 
 // Setup handlebars engine and views location
 app.set('view engine', 'hbs')
@@ -24,35 +25,35 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'CovidInfo',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
 app.get('/insights', (req, res) => {
     res.render('insights', {
         title: 'Insights',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
 app.get('/model_performance', (req, res) => {
     res.render('model_performance', {
         title: 'ModelPerformance',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
 app.get('/prediction', (req, res) => {
     res.render('prediction', {
         title: 'Prediction',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
@@ -60,13 +61,13 @@ app.get('/help', (req, res) => {
     res.render('help', {
         helpText: 'This is some helpful text.',
         title: 'Help',
-        name: 'Smit Contractor'
+        name: 'Andrew Mead'
     })
 })
 
 app.get('/get-prediction', (req, res) => {
-    console.log(req.query)
-    PythonShell.run(pyscript, null, async (err, results) => {
+    const params = req.query
+    PythonShell.run(pyscript, {args: [params.state, params.county, params.ageGroup, params.race, params.currentStatus, params.sex, mlDirectory]}, async (err, results) => {
         if (err) {
             console.log(err)
             return res.send({
@@ -83,7 +84,7 @@ app.get('/get-prediction', (req, res) => {
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Smit Contractor',
+        name: 'Andrew Mead',
         errorMessage: 'Help article not found.'
     })
 })
@@ -91,7 +92,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Smit Contractor',
+        name: 'Andrew Mead',
         errorMessage: 'Page not found.'
     })
 })
