@@ -36,7 +36,7 @@ EXECUTION
 
 DEMO VIDEO
 -   App Setup
-    - To Be Implemented
+    - https://youtu.be/fimYlgpHLuU
 
 -   App Demo
     - https://youtu.be/da3a9Qu5wwE 
